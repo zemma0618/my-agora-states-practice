@@ -31,5 +31,5 @@ jobs:
           aws s3 cp \
           --recursive \
             --region ap-northeast-2 \
-            build s3://my-agora-states-practice
+            build s3://fe-38-zemma0618-s3
         working-directory: ./my-agora-states-client
