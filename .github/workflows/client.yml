@@ -31,5 +31,5 @@ jobs:
           aws s3 cp \
             --region ap-northeast-2 \
             build s3://my-agora-states-practice \
-            --delete
+
         working-directory: ./my-agora-states-client
